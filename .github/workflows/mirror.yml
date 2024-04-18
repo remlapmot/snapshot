@@ -1,0 +1,23 @@
+on:
+  push:
+  workflow_dispatch:
+
+name: Mirror snapshot from r-universe
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download snapshot
+        run: |
+          rm -Rf src bin docs
+          curl "https://remlapmot.r-universe.dev/api/snapshot/zip?binaries=4.3" -Lo snapshot.zip
+          unzip snapshot.zip && rm -f snapshot.zip
+      - name: Commit and push
+        run: |
+          git config user.name "Tom Palmer"
+          git config user.email "remlapmot@hotmail.com"
+          git add src bin docs
+          git commit -m "Update snapshot ($(date +%F))"
+          git push
