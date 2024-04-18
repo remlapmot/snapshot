@@ -1,0 +1,9 @@
+Package: Statamarkdown
+Version: 0.9.2
+License: MIT + file LICENSE
+NeedsCompilation: no
+Built: R 4.2.3; ; 2024-03-03 05:30:26 UTC; unix
+MD5sum: 62b9449d67a208f7e10a74149d7ce450
+Imports: knitr (>= 1.43), xfun (>= 0.39)
+Suggests: rmarkdown
+
