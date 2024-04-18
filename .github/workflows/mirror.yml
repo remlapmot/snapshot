@@ -18,6 +18,6 @@ jobs:
         run: |
           git config user.name "Tom Palmer"
           git config user.email "remlapmot@hotmail.com"
-          git add src bin docs
+          git add $(date +%F)
           git commit -m "Update snapshot ($(date +%F))"
           git push
