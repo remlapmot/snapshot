@@ -10,7 +10,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: Download snapshot
         run: |
-          rm -Rf src bin docs
+          mkdir $(date +%F)
+          cd $(date +%F)
           curl "https://remlapmot.r-universe.dev/api/snapshot/zip?binaries=4.3" -Lo snapshot.zip
           unzip snapshot.zip && rm -f snapshot.zip
       - name: Commit and push
