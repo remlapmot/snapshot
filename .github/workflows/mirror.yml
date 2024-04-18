@@ -15,7 +15,7 @@ jobs:
           mkdir -p $(date +%F)
           cd $(date +%F)
           curl "https://remlapmot.r-universe.dev/api/snapshot/zip?src,win,mac,linux,wasm" -Lo snapshot.zip
-          unzip -o snapshot.zip && rm -f snapshot.zip
+          unzip -of snapshot.zip && rm -f snapshot.zip
       - name: Commit and push
         run: |
           git config user.name "Tom Palmer"
