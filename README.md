@@ -4,15 +4,25 @@ This is based on <https://github.com/jeroen/backup> but saves each snapshot into
 
 To install a package from a snapshot say from 2024-04-18 run the following code:
 
-Windows and Mac users
-
-```r
-install.packages('knitexercise', repos = 'https://remlapmot.github.io/snapshot/2024-04-18')
-```
-
-Ubuntu Jammy Jellyfish users
+Windows and Mac users (assumes a P3M snapshot exists on this date - see whether exists <https://p3m.dev/cran/2024-04-18/src/contrib/PACKAGES>)
 
 ```r
 install.packages('knitexercise',
-  repos = 'https://remlapmot.github.io/snapshot/2024-04-18/bin/linux/jammy/4.3')
+  repos = c('https://remlapmot.github.io/snapshot/2024-04-18',
+            'https://p3m.dev/cran/2024-04-18'))
+```
+
+Ubuntu Jammy Jellyfish users (assumes a P3M snapshot exists on this date - see whether exists <https://p3m.dev/cran/__linux__/jammy/2024-04-18/src/contrib/PACKAGES>)
+
+```r
+install.packages('knitexercise',
+  repos = 'https://remlapmot.github.io/snapshot/2024-04-18/bin/linux/jammy/4.3',
+          'https://p3m.dev/cran/__linux__/jammy/2024-04-18')
+```
+
+WebR users
+
+```r
+install.packages('knitexercise',
+  repos = c('https://remlapmot.github.io/snapshot/2024-04-18', 'https://repo.r-wasm.org'))
 ```
