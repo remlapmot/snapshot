@@ -1,7 +1,7 @@
 on:
   workflow_dispatch:
   schedule:
-    - cron: "01 08  * * MON,THU" # run at 08:01 am on Mondays and Thursdays
+    - cron: "01 08  * * MON" # run at 08:01 am on Mondays
 
 name: Mirror snapshot from r-universe
 
