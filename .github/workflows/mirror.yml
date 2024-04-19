@@ -12,11 +12,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: Download snapshot
         run: |
-          rm -rf $(date +%F)
           mkdir -p $(date +%F)
           cd $(date +%F)
           curl "https://remlapmot.r-universe.dev/api/snapshot/zip?types=src,win,mac,linux,wasm" -Lo snapshot.zip
-          unzip snapshot.zip && rm -f snapshot.zip
+          unzip -o snapshot.zip && rm -f snapshot.zip
       - name: Commit and push
         run: |
           git config user.name "Tom Palmer"
