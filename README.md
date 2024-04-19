@@ -22,8 +22,8 @@ install.packages('knitexercise',
 
 ```r
 install.packages('knitexercise',
-  repos = 'https://remlapmot.github.io/snapshot/2024-04-18/bin/linux/jammy/4.3',
-          'https://p3m.dev/cran/__linux__/jammy/2024-04-18')
+  repos = c('https://remlapmot.github.io/snapshot/2024-04-18/bin/linux/jammy/4.3',
+            'https://p3m.dev/cran/__linux__/jammy/2024-04-18'))
 ```
 
 ### WebR users
