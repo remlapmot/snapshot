@@ -21,5 +21,5 @@ jobs:
           git config user.name "Tom Palmer"
           git config user.email "remlapmot@hotmail.com"
           git add $(date +%F)
-          git diff --exit-code || git commit -m "Update snapshot ($(date +%F))"
+          git commit -m "Update snapshot ($(date +%F))"
           git push
