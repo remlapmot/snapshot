@@ -1,0 +1,75 @@
+Package: OneSampleMR
+Version: 0.1.3.9000
+License: GPL (>= 3)
+NeedsCompilation: no
+Built: R 4.4.0; ; 2024-04-30 20:24:34 UTC; unix
+MD5sum: 4e6fcc6bd886b4ef31992589dce204fe
+Depends: R (>= 4.3)
+Imports: ellipsis, Formula, gmm, ivreg, lmtest, msm
+Suggests: haven, knitr, lfe, rmarkdown, testthat (>= 3.0.0)
+
+Package: Statamarkdown
+Version: 0.9.2
+License: MIT + file LICENSE
+NeedsCompilation: no
+Built: R 4.4.0; ; 2024-05-02 16:41:08 UTC; unix
+MD5sum: 42e517f1f31762108d88a99e1e50e94a
+Imports: knitr (>= 1.43), xfun (>= 0.39)
+Suggests: rmarkdown
+
+Package: StepReg
+Version: 1.5.0
+License: MIT + file LICENSE
+NeedsCompilation: no
+Built: R 4.4.0; ; 2024-05-02 16:46:06 UTC; unix
+MD5sum: 9e0eaac245ea78562dce950c7b000156
+Imports: dplyr, ggplot2, ggrepel, purrr, stringr, survival, flextable, shiny, cowplot, rlang, GGally, ggcorrplot, tidyr, summarytools, shinythemes, rmarkdown, DT, shinycssloaders, shinyjs
+Suggests: knitr, testthat, BiocStyle, kableExtra, AER
+
+Package: TwoSampleMR
+Version: 0.6.2
+License: MIT + file LICENSE
+NeedsCompilation: no
+Built: R 4.4.0; ; 2024-05-09 22:30:54 UTC; unix
+MD5sum: 9d55fc8f6e97bf61493df666f958d6c1
+Depends: R (>= 4.0.0)
+Imports: cowplot, data.table, dplyr, ggplot2 (>= 3.4.0), glmnet, gridExtra, gtable, ieugwasr (>= 1.0.0), knitr, lattice, magrittr, MASS, meta, mr.raps, MRMix, MRPRESSO, pbapply, plyr, psych, RadialMR, reshape2, rmarkdown
+Suggests: Cairo, car, markdown, MendelianRandomization, MRInstruments, randomForest, testthat
+
+Package: bpbounds
+Version: 0.1.5.9000
+License: GPL-3
+NeedsCompilation: no
+Built: R 4.4.0; ; 2024-04-30 20:23:56 UTC; unix
+MD5sum: 3f9ad473b0f02f8a56ef6eff786e3970
+Depends: R (>= 3.6.0)
+Suggests: dplyr, knitr, rmarkdown, shiny, testthat, tidyr
+
+Package: ieugwasr
+Version: 1.0.0
+License: MIT + file LICENSE
+NeedsCompilation: no
+Built: R 4.4.0; ; 2024-05-06 14:28:28 UTC; unix
+MD5sum: 6237e9738824f094389d2484c74a7546
+Depends: R (>= 4.0)
+Imports: dplyr, httr, jsonlite, stats
+Suggests: knitr, utils, rmarkdown, testthat
+
+Package: knitexercise
+Version: 0.3.0
+License: GPL-3
+NeedsCompilation: no
+Built: R 4.4.0; ; 2024-04-30 12:50:02 UTC; unix
+MD5sum: 21f8517837ba91f07a516c4765802780
+Depends: R (>= 3.6.0)
+Imports: knitr (>= 1.37), rmarkdown
+Suggests: testthat
+
+Package: tmsens
+Version: 0.3.0
+License: GPL (>= 3)
+NeedsCompilation: no
+Built: R 4.4.0; ; 2024-05-02 05:13:35 UTC; unix
+MD5sum: e66f0c47079ae38ca56654db65ccf4c8
+Suggests: testthat
+
