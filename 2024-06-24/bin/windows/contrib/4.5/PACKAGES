@@ -1,0 +1,138 @@
+Package: MRInstruments
+Version: 0.3.2
+License: CC0
+NeedsCompilation: no
+Built: R 4.5.0; ; 2024-06-19 05:04:36 UTC; windows
+MD5sum: 0e3dc3ab6875f9e67358dee23b41664e
+Depends: R (>= 2.10)
+Suggests: dplyr
+
+Package: MRMix
+Version: 0.1.0
+License: GPL-2
+NeedsCompilation: no
+Built: R 4.5.0; ; 2024-06-19 04:48:19 UTC; windows
+MD5sum: 61e59ff861244876e17493731f678e3c
+
+Package: MRPRESSO
+Version: 1.0
+License: GPL-3
+NeedsCompilation: no
+Built: R 4.5.0; ; 2024-06-19 05:03:23 UTC; windows
+MD5sum: b816346690182e3fe34f639c34f0bf75
+
+Package: OneSampleMR
+Version: 0.1.4
+License: GPL (>= 3)
+NeedsCompilation: no
+Built: R 4.5.0; ; 2024-06-13 15:29:31 UTC; windows
+MD5sum: 3218d470b1c0bd9a45a84d97ac4a7eec
+Depends: R (>= 4.3)
+Imports: ellipsis, Formula, gmm, ivreg, lmtest, msm
+Suggests: haven, knitr, lfe, rmarkdown, testthat (>= 3.0.0)
+
+Package: RadialMR
+Version: 1.1
+License: GPL-3
+NeedsCompilation: no
+Built: R 4.5.0; ; 2024-06-19 05:07:16 UTC; windows
+MD5sum: 1aa230254d8ddaa8fe8f61a2e719c976
+Depends: R (>= 3.5.0)
+Imports: ggplot2, magrittr, plotly
+Suggests: MendelianRandomization, TwoSampleMR (>= 0.5.0)
+
+Package: Statamarkdown
+Version: 0.9.2
+License: MIT + file LICENSE
+NeedsCompilation: no
+Built: R 4.5.0; ; 2024-06-01 03:32:46 UTC; windows
+MD5sum: 2534761bf04d6ab5e6f1852d96532593
+Imports: knitr (>= 1.43), xfun (>= 0.39)
+Suggests: rmarkdown
+
+Package: StepReg
+Version: 1.5.0
+License: MIT + file LICENSE
+NeedsCompilation: no
+Built: R 4.5.0; ; 2024-06-01 03:51:23 UTC; windows
+MD5sum: 29e3a40971a5b38dabc4eb3524ba4b23
+Imports: dplyr, ggplot2, ggrepel, purrr, stringr, survival, flextable, shiny, cowplot, rlang, GGally, ggcorrplot, tidyr, summarytools, shinythemes, rmarkdown, DT, shinycssloaders, shinyjs
+Suggests: knitr, testthat, BiocStyle, kableExtra, AER
+
+Package: TwoSampleMR
+Version: 0.6.4
+License: MIT + file LICENSE
+NeedsCompilation: no
+Built: R 4.5.0; ; 2024-06-05 21:35:55 UTC; windows
+MD5sum: dcfc6a3f7b6952723b42447e51b3527e
+Depends: R (>= 4.0.0)
+Imports: cowplot, data.table, dplyr, ggplot2 (>= 3.4.0), glmnet, gridExtra, gtable, ieugwasr (>= 1.0.0), jsonlite, knitr, lattice, magrittr, MASS, meta, mr.raps, MRMix, MRPRESSO, pbapply, plyr, psych, RadialMR, reshape2, rmarkdown
+Suggests: Cairo, car, markdown, MendelianRandomization, MRInstruments, randomForest, testthat
+
+Package: bpbounds
+Version: 0.1.6
+License: GPL-3
+NeedsCompilation: no
+Built: R 4.5.0; ; 2024-06-13 16:30:50 UTC; windows
+MD5sum: 4d5f031f326d9cbaf8dcd6d83a8d279e
+Depends: R (>= 4.0.0)
+Suggests: dplyr, knitr, rmarkdown, shiny, testthat, tidyr
+
+Package: dd4d
+Version: 0.0.0.9000
+License: MIT + file LICENSE
+NeedsCompilation: no
+Built: R 4.5.0; ; 2024-06-21 02:30:39 UTC; windows
+MD5sum: 397060368e24c2bdaae2714124116aa2
+Imports: rlang, dagitty, dplyr, purrr, tidyr, tibble, tidyselect, magrittr
+Suggests: testthat (>= 3.0.0)
+
+Package: ieugwasr
+Version: 1.0.0
+License: MIT + file LICENSE
+NeedsCompilation: no
+Built: R 4.5.0; ; 2024-06-05 05:33:36 UTC; windows
+MD5sum: 31d629ac4e11f8e96ae4428b7d6bcf6e
+Depends: R (>= 4.0)
+Imports: dplyr, httr, jsonlite, stats
+Suggests: knitr, utils, rmarkdown, testthat
+
+Package: knitexercise
+Version: 0.4.0
+License: GPL-3
+NeedsCompilation: no
+Built: R 4.5.0; ; 2024-06-12 08:35:12 UTC; windows
+MD5sum: a1e7b31fd8b2fba7b7ab458a435260f4
+Depends: R (>= 4.0.0)
+Imports: knitr (>= 1.37), rmarkdown
+Suggests: testthat
+
+Package: mrbayes
+Version: 0.5.1
+License: GPL-3
+NeedsCompilation: yes
+Built: R 4.5.0; x86_64-w64-mingw32; 2024-05-29 05:57:25 UTC; windows
+Archs: x64
+MD5sum: e72703d4c49c8ffc7a7ca91e2f435e57
+Depends: R (>= 3.5.0)
+LinkingTo: BH (>= 1.66.0), Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0), rstan (>= 2.18.1), StanHeaders (>= 2.18.0)
+Imports: methods, Rcpp (>= 0.12.0), rstan (>= 2.18.1), rstantools (>= 2.0.0), plyr
+Suggests: testthat, rjags (>= 4-9), tidyverse, knitr, ggplot2, ggmcmc, foreign, DescTools, bayesmeta, utils, kableExtra, roxygen2, bookdown, MendelianRandomization
+
+Package: osutils
+Version: 0.0.0.9000
+License: MIT + file LICENSE
+NeedsCompilation: no
+Built: R 4.5.0; ; 2024-06-16 03:12:23 UTC; windows
+MD5sum: abfb0409777e1fa4224038429f1eb1e3
+Imports: broom, data.table, dplyr, forcats, fs, gt, jsonlite, lifecycle, magrittr, plyr, purrr, readr, rlang, stats, stringr, tibble, tidyr, tidyselect, yaml
+Suggests: testthat (>= 3.0.0)
+
+Package: tmsens
+Version: 0.3.0
+License: GPL (>= 3)
+NeedsCompilation: no
+Built: R 4.5.0; ; 2024-06-01 02:32:38 UTC; windows
+MD5sum: eacdc701ae2602eb5602a61544dec1fe
+Suggests: testthat
+
