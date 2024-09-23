@@ -1,0 +1,24 @@
+Package: TrialEmulation
+Version: 0.0.3.37
+License: Apache License (>= 2)
+NeedsCompilation: yes
+Built: R 4.3.3; aarch64-apple-darwin20; 2024-09-04 15:21:21 UTC; unix
+MD5sum: 8808bb6f09fede8be593ea4fb7634066
+Filesize: 2810514
+Depends: R (>= 3.5.0)
+LinkingTo: Rcpp
+Imports: broom (>= 0.7.10), checkmate, data.table (>= 1.9.8), DBI, duckdb, formula.tools, lifecycle, lmtest, methods, mvtnorm, parglm, Rcpp, sandwich
+Suggests: knitr, rmarkdown, testthat (>= 3.0.0), withr
+
+Package: mrbayes
+Version: 0.5.2.9000
+License: GPL-3
+NeedsCompilation: yes
+Built: R 4.3.3; aarch64-apple-darwin20; 2024-08-27 20:25:10 UTC; unix
+MD5sum: 038fc1aec22db3dd3f3e21528aa8093c
+Filesize: 1482001
+Depends: R (>= 4.2.0)
+LinkingTo: BH (>= 1.66.0), Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0), RcppParallel (>= 5.0.1), rstan (>= 2.18.1), StanHeaders (>= 2.18.0)
+Imports: DescTools, methods, Rcpp (>= 0.12.0), RcppParallel (>= 5.0.1), rstan (>= 2.18.1), rstantools (>= 2.4.0)
+Suggests: MendelianRandomization, rjags (>= 4-9), testthat
+
