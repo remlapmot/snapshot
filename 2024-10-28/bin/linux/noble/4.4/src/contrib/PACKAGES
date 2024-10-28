@@ -1,0 +1,178 @@
+Package: MRInstruments
+Version: 0.3.2
+License: CC0
+NeedsCompilation: no
+Built: R 4.4.1; ; 2024-10-17 04:45:06 UTC; unix
+MD5sum: 406a3f32b56c017a9221f9b3d03dd587
+Filesize: 35930668
+SHA256: 22a5fb46d5483ceed399bf0efe9eafe6be33f72527c8c6d78b5deef93a70ad5c
+Depends: R (>= 2.10)
+Suggests: dplyr
+
+Package: MRMix
+Version: 0.1.0
+License: GPL-2
+NeedsCompilation: no
+Built: R 4.4.1; ; 2024-10-17 04:29:19 UTC; unix
+MD5sum: 24a5ef68e24786fcedd77de971f96c23
+Filesize: 96088
+SHA256: 2cfa1a6ebdfad4954a2f6f9a54be4e5bc7b5250e1aaf290f8404ed6091cb0df6
+
+Package: MRPRESSO
+Version: 1.0
+License: GPL-3
+NeedsCompilation: no
+Built: R 4.4.1; ; 2024-10-17 05:00:07 UTC; unix
+MD5sum: 28cff5bfc33da4057785f2682bdd0e59
+Filesize: 36883
+SHA256: 25784c80c1761c33b07f612b584129a6ff7e470b7147d459bb9bb3fc79ff64f1
+
+Package: OneSampleMR
+Version: 0.1.5.9000
+License: GPL (>= 3)
+NeedsCompilation: no
+Built: R 4.4.1; ; 2024-10-26 05:27:59 UTC; unix
+MD5sum: 30d11ed982af5039047f146a3ac2177e
+Filesize: 129100
+SHA256: edd7899b2d4b23c90dc9e10f692c540d0c103cfcedc2bdd26467697d8628265d
+Depends: R (>= 4.3)
+Imports: Formula, gmm, ivreg, lmtest, msm, rlang (>= 1.0.0)
+Suggests: haven, knitr, lfe, rmarkdown, testthat (>= 3.0.0)
+
+Package: RadialMR
+Version: 1.1
+License: GPL-3
+NeedsCompilation: no
+Built: R 4.4.1; ; 2024-10-27 20:25:31 UTC; unix
+MD5sum: 3ab57589fa4d170cf7f25e94afbc1246
+Filesize: 142435
+SHA256: 1a031d85873f03bf407c25de324b82070c226880e50cbcd70cc1f2dccaf7b3ec
+Depends: R (>= 3.6.0)
+Imports: ggplot2, magrittr, plotly
+Suggests: MendelianRandomization, TwoSampleMR (>= 0.5.0)
+
+Package: Statamarkdown
+Version: 0.9.2
+License: MIT + file LICENSE
+NeedsCompilation: no
+Built: R 4.4.1; ; 2024-09-29 03:02:52 UTC; unix
+MD5sum: 06c382ddf02c39d39c0c3547af9a77b2
+Filesize: 63441
+SHA256: f10834f6766de4532eb89423adefda997eab8fbea9114eb648ac8a376b38de93
+Imports: knitr (>= 1.43), xfun (>= 0.39)
+Suggests: rmarkdown
+
+Package: StepReg
+Version: 1.5.0
+License: MIT + file LICENSE
+NeedsCompilation: no
+Built: R 4.4.1; ; 2024-09-29 04:05:43 UTC; unix
+MD5sum: 6d6921ad1212cfba2121bda5a5a22bf0
+Filesize: 1551382
+SHA256: e641089b6200457684d58b85179c3682bdb0c63a447003c530f1d4e681658a34
+Imports: dplyr, ggplot2, ggrepel, purrr, stringr, survival, flextable, shiny, cowplot, rlang, GGally, ggcorrplot, tidyr, summarytools, shinythemes, rmarkdown, DT, shinycssloaders, shinyjs
+Suggests: knitr, testthat, BiocStyle, kableExtra, AER
+
+Package: TrialEmulation
+Version: 0.0.3.37
+License: Apache License (>= 2)
+NeedsCompilation: yes
+Built: R 4.4.1; x86_64-pc-linux-gnu; 2024-10-04 05:32:42 UTC; unix
+MD5sum: d194f1244213bfbf5c3b5eb4c27e7392
+Filesize: 2831274
+SHA256: 510e55e765e8f2b0e039974ad8a3535b91ed95384a29b584b57b8ab60bb23692
+Depends: R (>= 3.5.0)
+LinkingTo: Rcpp
+Imports: broom (>= 0.7.10), checkmate, data.table (>= 1.9.8), DBI, duckdb, formula.tools, lifecycle, lmtest, methods, mvtnorm, parglm, Rcpp, sandwich
+Suggests: knitr, rmarkdown, testthat (>= 3.0.0), withr
+
+Package: TwoSampleMR
+Version: 0.6.8
+License: MIT + file LICENSE
+NeedsCompilation: no
+Built: R 4.4.1; ; 2024-10-06 05:22:19 UTC; unix
+MD5sum: 4238f6fb18016ed1970f3fda55cf117b
+Filesize: 6588355
+SHA256: 211e62ba320723f80e33fd9a6b5f9d4dcb3ae25757646170b67d853ece3d5401
+Depends: R (>= 4.0.0)
+Imports: cowplot, data.table, dplyr, ggplot2 (>= 3.4.0), glmnet, gridExtra, gtable, ieugwasr (>= 1.0.1), jsonlite, knitr, lattice, magrittr, MASS, meta, mr.raps, MRMix, MRPRESSO, pbapply, plyr, psych, RadialMR, reshape2, rmarkdown
+Suggests: Cairo, car, markdown, MendelianRandomization, MRInstruments, randomForest, testthat, tidyr
+
+Package: bpbounds
+Version: 0.1.6.9000
+License: GPL-3
+NeedsCompilation: no
+Built: R 4.4.1; ; 2024-09-20 05:03:27 UTC; unix
+MD5sum: f35f392eea14e352bd4b5260652bfd6c
+Filesize: 66086
+Depends: R (>= 4.0.0)
+Suggests: dplyr, knitr, rmarkdown, shiny, testthat, tidyr
+
+Package: dd4d
+Version: 0.0.0.9000
+License: MIT + file LICENSE
+NeedsCompilation: no
+Built: R 4.4.1; ; 2024-09-19 02:40:02 UTC; unix
+MD5sum: 938055b5bf6a91ca006397128cc4c172
+Filesize: 38027
+Imports: rlang, dagitty, dplyr, purrr, tidyr, tibble, tidyselect, magrittr
+Suggests: testthat (>= 3.0.0)
+
+Package: ieugwasr
+Version: 1.0.1
+License: MIT + file LICENSE
+NeedsCompilation: no
+Built: R 4.4.1; ; 2024-10-03 04:59:56 UTC; unix
+MD5sum: 95988eb18929d16d602e1a09981cc25c
+Filesize: 140846
+SHA256: 02ddff3d4aa363536a301619463636098ef36fc18c70868bd96dc3bc1ff50883
+Depends: R (>= 4.0)
+Imports: dplyr, httr, jsonlite, magrittr, stats
+Suggests: knitr, utils, rmarkdown, testthat
+
+Package: knitexercise
+Version: 0.4.1
+License: GPL-3
+NeedsCompilation: no
+Built: R 4.4.1; ; 2024-10-26 05:11:24 UTC; unix
+MD5sum: 24514a370565dac3f23596246c6289dd
+Filesize: 20670
+SHA256: 941f4bb86640f18b4c7c9f7da529b8ff319d2ee5acdcd9dbbe3503bea7b74d9f
+Depends: R (>= 4.0.0)
+Imports: knitr (>= 1.37), rmarkdown
+Suggests: testthat
+
+Package: mrbayes
+Version: 0.5.2.9000
+License: GPL-3
+NeedsCompilation: yes
+Built: R 4.4.1; x86_64-pc-linux-gnu; 2024-10-26 05:27:55 UTC; unix
+MD5sum: e5d7a990bbd5ba009c26a0739decbd1f
+Filesize: 1666517
+SHA256: a7b97ffbc12e0bfa0a4b877dfe97b785465c4f060502fffc69ba2a44e6244105
+Depends: R (>= 4.2.0)
+LinkingTo: BH (>= 1.66.0), Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0), RcppParallel (>= 5.0.1), rstan (>= 2.18.1), StanHeaders (>= 2.18.0)
+Imports: DescTools, methods, Rcpp (>= 0.12.0), RcppParallel (>= 5.0.1), rstan (>= 2.18.1), rstantools (>= 2.4.0)
+Suggests: MendelianRandomization, rjags (>= 4-9), testthat
+
+Package: osutils
+Version: 0.0.0.9000
+License: MIT + file LICENSE
+NeedsCompilation: no
+Built: R 4.4.1; ; 2024-10-14 03:31:40 UTC; unix
+MD5sum: d7cd57b00010b0c8e0c76f4e5938b3de
+Filesize: 132639
+SHA256: 32e08ad7544bb1386e64427dc7114a7de0a6c2924490a630e1e738b135a1e685
+Imports: broom, data.table, dplyr, forcats, fs, gt, jsonlite, lifecycle, magrittr, plyr, purrr, readr, rlang, stats, stringr, tibble, tidyr, tidyselect, yaml
+Suggests: testthat (>= 3.0.0)
+
+Package: tmsens
+Version: 0.3.1
+License: GPL (>= 3)
+NeedsCompilation: no
+Built: R 4.4.1; ; 2024-09-29 06:04:34 UTC; unix
+MD5sum: 7fb163074469a59207da5a7bdc4cda83
+Filesize: 63700
+SHA256: 80a5da730308324aff266590dac345868327a3107f914ad511e0c15333252a5c
+Suggests: testthat
+
